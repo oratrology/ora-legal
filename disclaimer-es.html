@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disclaimer — ORA App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #3D2785;
+      --accent: #6C63FF;
+      --text: #FFFFFF;
+      --secondary: #9CA3AF;
+      --card: rgba(255,255,255,0.07);
+      --border: rgba(255,255,255,0.12);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      min-height: 100vh;
+      padding: 0 0 60px;
+    }
+    header {
+      background: rgba(0,0,0,0.25);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(12px);
+      z-index: 100;
+    }
+    header .logo { font-family: 'Nunito', sans-serif; font-size: 22px; font-weight: 800; letter-spacing: 2px; color: var(--text); }
+    header .badge { background: var(--accent); color: white; font-size: 10px; padding: 2px 8px; border-radius: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+    .container { max-width: 720px; margin: 0 auto; padding: 36px 24px; }
+    h1 { font-family: 'Nunito', sans-serif; font-size: 28px; font-weight: 800; margin-bottom: 6px; }
+    .meta { color: var(--secondary); font-size: 13px; margin-bottom: 32px; }
+    .meta span { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 3px 10px; margin-right: 8px; display: inline-block; margin-bottom: 6px; }
+    .draft-notice {
+      background: rgba(255, 193, 7, 0.12);
+      border: 1px solid rgba(255, 193, 7, 0.4);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 32px;
+      font-size: 13px;
+      color: #FFD060;
+    }
+    .section { margin-bottom: 32px; }
+    h2 { font-family: 'Nunito', sans-serif; font-size: 17px; font-weight: 700; color: var(--accent); margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+    p { font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.88); margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.88); margin-bottom: 6px; }
+    .quote {
+      border-left: 3px solid var(--accent);
+      padding: 10px 16px;
+      background: var(--card);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--secondary);
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    .checkbox-section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      margin-top: 40px;
+    }
+    .checkbox-section h3 { font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 16px; color: var(--accent); }
+    .checkbox-text { font-size: 14px; line-height: 1.6; color: rgba(255,255,255,0.85); }
+    .lang-switcher { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+    .lang-btn { background: var(--card); border: 1px solid var(--border); color: var(--secondary); padding: 5px 14px; border-radius: 20px; font-size: 12px; text-decoration: none; transition: all 0.2s; }
+    .lang-btn:hover, .lang-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+    footer { text-align: center; color: var(--secondary); font-size: 12px; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); }
+    strong { color: white; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🔮 ORA</div>
+    <div class="badge">Legal</div>
+  </header>
+
+  <div class="container">
+    <div class="lang-switcher">
+      <a href="disclaimer-es.html" class="lang-btn active">🇪🇸 ES</a>
+      <a href="disclaimer-en.html" class="lang-btn">🇬🇧 EN</a>
+      <a href="disclaimer-fr.html" class="lang-btn">🇫🇷 FR</a>
+      <a href="disclaimer-pt.html" class="lang-btn">🇧🇷 PT</a>
+      <a href="disclaimer-it.html" class="lang-btn">🇮🇹 IT</a>
+      <a href="disclaimer-de.html" class="lang-btn">🇩🇪 DE</a>
+      <a href="disclaimer-nl.html" class="lang-btn">🇳🇱 NL</a>
+    </div>
+
+    <h1>🔮 Disclaimer Oficial</h1>
+    <div class="meta">
+      <span>Versión 1.1</span>
+      <span>Mayo 2026</span>
+      <span>Cobertura Global</span>
+    </div>
+
+    <div class="draft-notice">
+      ⚠️ DRAFT — Requiere revisión legal antes de publicación oficial.
+    </div>
+
+    <div class="section">
+      <h2>1. Propósito y Naturaleza del Contenido</h2>
+      <p>ORA es una aplicación de <strong>entretenimiento, autoconocimiento y desarrollo personal.</strong> Las lecturas, interpretaciones astrológicas, tiradas de tarot, análisis numerológicos, perfiles de Eneagrama, interpretaciones de sueños y cualquier otro contenido generado por ORA tienen propósito exclusivamente <strong>simbólico, reflexivo y de entretenimiento.</strong></p>
+      <p>ORA <strong>no reemplaza</strong> ni sustituye consejo médico, psicológico, legal, financiero, nutricional o de cualquier otra disciplina profesional.</p>
+      <div class="quote">Los astros orientan. Tú decides.</div>
+    </div>
+
+    <div class="section">
+      <h2>2. Inteligencia Artificial — Disclosure Obligatorio</h2>
+      <p>ORA utiliza tecnología de <strong>inteligencia artificial (IA)</strong> para generar interpretaciones personalizadas. Este disclosure es obligatorio conforme a las políticas de Apple App Store y Google Play Store vigentes en 2025–2026.</p>
+      <ul>
+        <li>El contenido es producido por <strong>sistemas automatizados de IA</strong> entrenados en tradiciones esotéricas, simbología y psicología del autoconocimiento.</li>
+        <li>Las respuestas de ORA son generadas algorítmicamente y <strong>no provienen de un ser humano, vidente, astrólogo certificado o cualquier otra persona física.</strong></li>
+        <li>ORA es un sistema de IA de entretenimiento, <strong>no un oráculo sobrenatural ni un profesional humano.</strong></li>
+        <li>ORA no garantiza precisión, exactitud ni cumplimiento de ninguna interpretación generada.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>3. Mayoría de Edad</h2>
+      <p>ORA está diseñado para personas <strong>mayores de 18 años</strong> (o la edad de mayoría legal en tu país de residencia). Al registrarte, declaras bajo tu responsabilidad que cumples con este requisito.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Contenido Psicológico — Uso Responsable</h2>
+      <p>Las interpretaciones de Eneagrama, arquetipos jungianos, perfiles de personalidad y cualquier análisis de tipo psicológico son <strong>herramientas de autoconocimiento y reflexión personal</strong>, no diagnósticos clínicos.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Respeto, No Discriminación y Uso Responsable de IA</h2>
+      <p>ORA no discrimina por motivos de raza, etnia, nacionalidad, género, orientación sexual, edad, religión, creencia espiritual o cualquier otra condición. ORA respeta profundamente las diversas tradiciones espirituales, religiosas, filosóficas y culturales del mundo.</p>
+      <p>ORA no vende ni comparte datos de usuarios con terceros para fines publicitarios sin consentimiento explícito.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Limitación de Responsabilidad</h2>
+      <ul>
+        <li>ORA no se hace responsable de decisiones tomadas basándose en el contenido de la aplicación.</li>
+        <li>ORA no garantiza disponibilidad ininterrumpida del servicio.</li>
+        <li>El uso de ORA es bajo el riesgo y responsabilidad exclusiva del usuario.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>7. Actualizaciones</h2>
+      <p>ORA se reserva el derecho de actualizar este Disclaimer en cualquier momento. El uso continuado de ORA tras la notificación implica la aceptación de los nuevos términos.</p>
+    </div>
+
+    <div class="checkbox-section">
+      <h3>✅ Texto de Aceptación (Login)</h3>
+      <p class="checkbox-text">He leído y acepto los <strong>Términos y Condiciones</strong> y la <strong>Política de Privacidad</strong> de ORA. Confirmo que tengo 18 años o más. Entiendo que ORA es una aplicación de entretenimiento que utiliza inteligencia artificial y que su contenido no constituye consejo profesional de ningún tipo.</p>
+    </div>
+
+    <footer>
+      © 2026 ORA App — Todos los derechos reservados<br>
+      <a href="index.html" style="color: var(--accent); text-decoration: none;">← Volver al índice legal</a>
+    </footer>
+  </div>
+</body>
+</html>
