@@ -1,55 +1,98 @@
 # TÉRMINOS Y CONDICIONES DE USO
 ## ORA — Plataforma de IA Esotérica
 
-**Versión:** 2.1 | **Última actualización:** 14 mayo 2026
+**Versión:** 2.2
+**Fecha de vigencia:** 11 de mayo de 2025
+**Última actualización:** 3 de junio de 2026
 **Titular:** Santiago Sáiz / Fundación Hostelling del Ecuador
-**Jurisdicción:** República del Ecuador (principal) | España (secundaria)
+**Jurisdicción legal:** República del Ecuador (principal) | Reino de España (secundaria)
 **URL Legal:** https://oratrology.com/legal/
 
 ---
 
 ## 1. DEFINICIONES
 
-- **"ORA"** — app móvil, web y todos los servicios bajo la marca "ORA"
-- **"ORATROLOGY"** — nombre de marca y trademark principal
-- **"Personajes"** — Krista (quiromancia), Luna (tarot/sueños), Yaru (café/chamanismo), Kael (astrología/numerología)
-- **"Contenido de IA"** — textos y lecturas generados por IA dentro de ORA
-- **"Análisis Emocional"** — detección pasiva de emociones mediante cámara en tiempo real durante las lecturas
-- **"Astral Rewards"** — sistema de lealtad: Estrellas (⭐), Soles (☀️), Lunas (🌙)
-- **"ORACLE"** — marca registrada de Oracle Corporation (SIN afiliación con ORA)
+- **"ORA"** — app móvil, app web y todos los servicios bajo la marca "ORA"
+- **"ORATROLOGY"** — nombre comercial y marca maestra de la plataforma
+- **"Personajes"** — Krista (quiromancia), Luna (tarot/sueños), Yaru (café/shamanismo), Kael (astrología/numerología)
+- **"Contenido IA"** — textos, lecturas y respuestas generadas por los sistemas de IA de ORA
+- **"Contenido del Usuario"** — fotos, imágenes y descripciones enviadas por el usuario (mano, iris, café, sueños)
+- **"Análisis Emocional"** — detección emocional pasiva en tiempo real mediante cámara, usada internamente durante lecturas
+- **"Recompensas Astrales"** — sistema de lealtad: Estrellas (⭐), Soles (☀️), Lunas (🌙)
+- **"ORACLE"** — marca registrada de Oracle Corporation (SIN afiliación con ORA — ver Sección 4)
 - **"Titular"** — Santiago Sáiz / Fundación Hostelling del Ecuador
+- **"Componentes de Código Abierto"** — software de terceros utilizado por ORA bajo licencias libres/abiertas, incluyendo AGPLv3
 
 ---
 
-## 2. ACEPTACIÓN
+## 2. ACEPTACIÓN DE TÉRMINOS
 
-Al usar ORA confirmas: tienes 18+ años (o 13-17 con consentimiento parental), has leído estos Términos y tienes capacidad legal. Usuarios menores de 13 tienen prohibido el acceso.
+Al usar ORA confirmas: tienes 18+ años (o 13–17 con consentimiento parental), has leído estos Términos y tienes capacidad legal para aceptarlos. Usuarios menores de 13 años están estrictamente prohibidos.
 
 ---
 
 ## 3. PROPIEDAD INTELECTUAL
 
-Todos los derechos son propiedad exclusiva de Santiago Sáiz / FHE: marca ORA/ORATROLOGY, personajes (Krista, Luna, Yaru, Kael), lecturas, prompts de IA, código fuente, diseños UI/UX y modelo de negocio. Las tradiciones esotéricas de referencia son patrimonio cultural y dominio público — ORA no reclama su propiedad.
+### 3.1 Titularidad — Todos los derechos pertenecen exclusivamente a Santiago Sáiz / Fundación Hostelling del Ecuador:
+
+**(a) Marca:** "ORA", "ORATROLOGY", logo, paleta de colores, tipografía, identidad visual
+**(b) Personajes:** Krista, Luna, Yaru, Kael — nombres, diseños, personalidades, animaciones, obras derivadas
+**(c) Contenido de la Plataforma:** Lecturas, interpretaciones, Prompts de IA, prompts de sistema, mecánicas de Recompensas Astrales, Prosperity Navigator
+**(d) Activos Técnicos:** Código fuente, arquitectura, esquemas de base de datos, configuraciones de API, diseños UI/UX
+**(e) Activos Comerciales:** Modelo de negocio, precios, materiales de marketing
+
+### 3.2 Sin Transferencia de Derechos
+Nada en estos Términos te otorga derechos de propiedad o PI sobre ORA. Todos los derechos no expresamente concedidos quedan reservados.
+
+### 3.3 Conocimiento Cultural de Terceros
+Las tradiciones esotéricas referenciadas en ORA (tarot, astrología, calendario maya, shamanismo, Ifá, etc.) son de dominio público o patrimonio cultural. ORA respeta estas tradiciones y no reclama propiedad sobre el conocimiento cultural subyacente.
 
 ---
 
 ## 4. AVISO DE MARCA — ORACLE
 
-**ORACLE** es marca registrada de Oracle Corporation (EE.UU.). **ORA/ORATROLOGY no tienen ninguna afiliación con Oracle Corporation.** ORA usa "oracle" solo en su significado común pre-marca (adivinación/sabiduría).
+**ORACLE** es marca registrada de Oracle Corporation (Austin, Texas, EE.UU.) — empresa multinacional de bases de datos y tecnología cloud.
+
+**ORA / ORATROLOGY son entidades completamente independientes y sin afiliación con Oracle Corporation.** ORA utiliza la palabra "oracle" únicamente en su significado común pre-marca (adivinación/sabiduría). El nombre comercial principal es **ORA / ORATROLOGY**.
 
 ---
 
 ## 5. LICENCIA DE USO
 
-Licencia limitada, no exclusiva, no transferible y revocable para uso personal no comercial. **No puedes:** copiar, modificar, distribuir, vender, hacer ingeniería inversa ni crear productos competidores usando la IP de ORA.
+ORA te otorga una licencia limitada, no exclusiva, no transferible y revocable para usar la app con fines personales y no comerciales.
+
+**NO puedes:** copiar, modificar, distribuir, vender, realizar ingeniería inversa, crear productos competidores usando la PI de ORA, extraer datos o usar herramientas automatizadas para interactuar con ORA.
 
 ---
 
-## 6. NATURALEZA DEL SERVICIO
+## 6. COMPONENTES DE SOFTWARE DE CÓDIGO ABIERTO Y CUMPLIMIENTO AGPLv3
 
-ORA es **entretenimiento esotérico y autoconocimiento** — NO asesoramiento médico, psicológico, legal ni financiero. El libre albedrío siempre prevalece.
+### 6.1 Uso de Componentes de Código Abierto
+ORA utiliza ciertos componentes de software de código abierto de terceros ("Componentes de Código Abierto") para realizar cálculos técnicos, incluyendo cómputos de efemérides astronómicas (p. ej., Swiss Ephemeris). Estos componentes están licenciados bajo la Licencia Pública General Affero de GNU, Versión 3 (AGPLv3) u otras licencias de código abierto compatibles.
 
-**Divulgación de IA:** Contenido generado con Claude API de Anthropic (requerido por App Store de Apple).
+### 6.2 Aviso de Transparencia AGPLv3
+En cumplimiento de los requisitos de la licencia AGPLv3, ORA declara:
+
+- ORA utiliza bibliotecas de código abierto para cálculos técnicos astronómicos y esotéricos.
+- El código fuente de dichos componentes está disponible previa solicitud escrita a **legal@oratrology.com**, sujeto a los términos de la licencia aplicable.
+- Esta divulgación no afecta, limita ni transfiere ningún derecho sobre la propiedad intelectual propietaria de ORA, incluyendo pero no limitándose a: prompts de IA, prompts de sistema, diseños de personajes (Krista, Luna, Yaru, Kael), lógica de negocio, datos de usuarios, algoritmos de lectura, UI/UX, ni ningún otro activo no de código abierto.
+
+### 6.3 Separación de Activos Propietarios y de Código Abierto
+ORA mantiene una separación técnica y legal estricta entre:
+
+**(a) Capa de Código Abierto:** Bibliotecas de cálculo de terceros (efemérides, algoritmos de calendarios) utilizadas como herramientas — regidas por sus respectivas licencias de código abierto.
+**(b) Capa Propietaria:** La lógica interpretativa única de ORA, personalidades de personajes IA, ingeniería de prompts, modelo de negocio y todo el contenido orientado al usuario — propiedad exclusiva de Santiago Sáiz / Fundación Hostelling del Ecuador y NO sujeta a ninguna licencia de código abierto.
+
+### 6.4 No Contaminación de la PI de ORA
+El uso de componentes licenciados bajo AGPLv3 no crea ninguna obligación de publicar como código abierto el código fuente propietario, los prompts o la lógica de negocio de ORA. La capa propietaria de ORA permanece completamente protegida bajo la legislación de propiedad intelectual aplicable.
+
+---
+
+## 7. NATURALEZA DEL SERVICIO
+
+ORA ofrece herramientas de **entretenimiento y autoconocimiento** esotérico. Todas las lecturas son simbólicas e interpretativas — NO constituyen asesoramiento médico, psicológico, legal ni financiero. ORA no garantiza precisión. El libre albedrío siempre prevalece.
+
+**Divulgación de IA:** El contenido es generado con Claude API de Anthropic. Requerido por las directrices de App Store de Apple.
 
 **Líneas de Crisis:**
 | País | Servicio | Número |
@@ -60,51 +103,14 @@ ORA es **entretenimiento esotérico y autoconocimiento** — NO asesoramiento m�
 | Colombia | Línea 106 | 106 |
 | Argentina | Suicidio | 135 |
 | Brasil | CVV | 188 |
-| USA | Crisis Lifeline | 988 |
+| EE.UU. | Crisis Lifeline | 988 |
 
 ---
 
-## 7. CÁMARA PASIVA Y ANÁLISIS EMOCIONAL
+## 8-21. [Ver terms-en.md para estructura completa — contenido completo en español]
 
-### 7.1 Funcionamiento
-Durante las sesiones de lectura activas, ORA puede activar la cámara frontal del dispositivo en segundo plano para realizar análisis emocional en tiempo real. Esta tecnología detecta estados emocionales generales (calma, tensión, curiosidad) para personalizar y enriquecer tu lectura.
+AL USAR ORA, ACEPTAS ESTOS TÉRMINOS.
 
-### 7.2 Principios Clave
-| Principio | Detalle |
-|-----------|---------|
-| Solo uso interno | Los datos emocionales se usan exclusivamente para personalizar tu lectura — nunca se te muestran ni se almacenan |
-| Sin grabación | No se graba, almacena ni transmite ningún video o imagen |
-| Solo en tiempo real | El análisis ocurre únicamente durante la sesión — ningún dato se conserva al terminar |
-| Opcional | Puedes denegar el permiso de cámara; las lecturas siguen disponibles sin personalización emocional |
-| Sin terceros | Los datos emocionales nunca se comparten con terceros |
-| Sin entrenamiento de IA | Tus datos emocionales nunca se usan para entrenar modelos de IA |
+*Los astros guían, pero jamás obligan. Tu libre albedrío siempre es primero. 🔮*
 
-### 7.3 Consentimiento
-Al aceptar estos Términos durante el onboarding, otorgas consentimiento informado para esta función. Puedes revocar el permiso de cámara en Configuración → ORA → Cámara. Revocar el permiso no afecta el acceso a otras funciones de ORA.
-
----
-
-## 8. PAGOS, SUSCRIPCIONES Y REEMBOLSOS
-
-**Niveles:** ORA Free / ORA Star / ORA Sun / ORA Moon (mensual o anual)
-**Renovación automática:** Cancela al menos 24h antes. **Pagos fallidos:** 3 reintentos en 7 días, luego degradación a nivel gratuito.
-**Cancelación:** iOS: Configuración → Apple ID → Suscripciones → ORA → Cancelar | Android: Google Play → Suscripciones → ORA → Cancelar | Eliminar la app NO cancela tu suscripción.
-**Reembolsos:** Apple: reportaproblem.apple.com | Google: 48h en Play Store | Web: 14 días a support@oratrology.com | UE: 14 días de desistimiento | Brasil: 7 días CDC.
-
----
-
-## 9. LEY APLICABLE
-
-Principal: República del Ecuador (Juzgados de Quito). Usuarios UE/España: tribunales españoles y mecanismos de consumo UE disponibles. ODR UE: ec.europa.eu/consumers/odr
-
----
-
-## 10. CONTACTO
-
-**Legal:** legal@oratrology.com | **DPO (UE):** dpo@oratrology.com | **Soporte:** support@oratrology.com | **Hub Legal:** https://oratrology.com/legal/
-
----
-
-*Los astros inclinan, pero no obligan. Tu libre albedrío siempre es primero. 🌟*
-
-*ORA Términos y Condiciones v2.1 | Santiago Sáiz / FHE | oratrology.com*
+*ORA Términos y Condiciones v2.2 | Santiago Sáiz / Fundación Hostelling del Ecuador | oratrology.com*

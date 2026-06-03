@@ -1,9 +1,9 @@
 # TERMS AND CONDITIONS OF USE
 ## ORA — Esoteric AI Platform
 
-**Version:** 2.1
+**Version:** 2.2
 **Effective Date:** May 11, 2025
-**Last Updated:** May 14, 2026
+**Last Updated:** June 3, 2026
 **Holder:** Santiago Sáiz / Fundación Hostelling del Ecuador
 **Legal Jurisdiction:** Republic of Ecuador (primary) | Kingdom of Spain (secondary)
 **Platform URL:** https://oratrology.com/legal/
@@ -21,12 +21,13 @@
 - **"Astral Rewards"** — loyalty system: Stars (⭐), Suns (☀️), Moons (🌙)
 - **"ORACLE"** — registered trademark of Oracle Corporation (NO affiliation with ORA — see Section 4)
 - **"Holder"** — Santiago Sáiz / Fundación Hostelling del Ecuador
+- **"Open-Source Components"** — third-party software used by ORA under free/open-source licenses, including AGPLv3
 
 ---
 
 ## 2. ACCEPTANCE OF TERMS
 
-By using ORA you confirm: you are 18+ (or 13-17 with parental consent), have read these Terms, and have legal capacity to agree. Users under 13 are strictly prohibited.
+By using ORA you confirm: you are 18+ (or 13–17 with parental consent), have read these Terms, and have legal capacity to agree. Users under 13 are strictly prohibited.
 
 ---
 
@@ -64,7 +65,30 @@ ORA grants you a limited, non-exclusive, non-transferable, revocable license to 
 
 ---
 
-## 6. NATURE OF THE SERVICE
+## 6. OPEN-SOURCE SOFTWARE COMPONENTS & AGPLv3 COMPLIANCE
+
+### 6.1 Use of Open-Source Components
+ORA uses certain third-party open-source software components ("Open-Source Components") to perform technical calculations, including astronomical ephemeris computations (e.g., Swiss Ephemeris). These components are licensed under the GNU Affero General Public License, Version 3 (AGPLv3) or other compatible open-source licenses.
+
+### 6.2 AGPLv3 Transparency Notice
+In compliance with the AGPLv3 license requirements, ORA hereby discloses:
+
+- ORA uses open-source libraries for technical astronomical and esoteric calculations.
+- The source code of said open-source components is available upon written request to **legal@oratrology.com**, subject to applicable license terms.
+- This disclosure does not affect, limit, or transfer any rights over ORA's proprietary intellectual property, including but not limited to: AI prompts, system prompts, character designs (Krista, Luna, Yaru, Kael), business logic, user data, reading algorithms, UI/UX, or any other non-open-source asset.
+
+### 6.3 Separation of Proprietary and Open-Source Assets
+ORA maintains strict technical and legal separation between:
+
+**(a) Open-Source Layer:** Third-party calculation libraries (ephemeris, calendar algorithms) used as tools — governed by their respective open-source licenses.
+**(b) Proprietary Layer:** ORA's unique interpretive logic, AI character personalities, prompt engineering, business model, and all user-facing content — exclusively owned by Santiago Sáiz / Fundación Hostelling del Ecuador and NOT subject to any open-source license.
+
+### 6.4 No Contamination of ORA's IP
+The use of AGPLv3-licensed components does not create any obligation to open-source ORA's proprietary codebase, prompts, or business logic. ORA's proprietary layer remains fully protected under applicable intellectual property law.
+
+---
+
+## 7. NATURE OF THE SERVICE
 
 ORA provides esoteric **entertainment and self-knowledge** tools. All readings are symbolic and interpretive — NOT medical, psychological, legal, or financial advice. ORA does not guarantee accuracy. Free will always prevails.
 
@@ -83,13 +107,13 @@ ORA provides esoteric **entertainment and self-knowledge** tools. All readings a
 
 ---
 
-## 7. USER ACCOUNTS
+## 8. USER ACCOUNTS
 
 You must provide accurate information, maintain account security, and accept responsibility for all account activity. One account per user. Users under 13 will have accounts terminated immediately.
 
 ---
 
-## 8. USER-GENERATED CONTENT
+## 9. USER-GENERATED CONTENT
 
 You may submit: hand photos (palmistry), iris photos (iridology), coffee/tea photos, dream descriptions, birth data.
 
@@ -97,12 +121,12 @@ We use your content only to generate your requested reading. **We never sell or 
 
 ---
 
-## 9. PASSIVE CAMERA & EMOTIONAL ANALYSIS
+## 10. PASSIVE CAMERA & EMOTIONAL ANALYSIS
 
-### 9.1 How It Works
+### 10.1 How It Works
 During active reading sessions, ORA may activate your device camera in the background to perform real-time emotional analysis. This technology detects general emotional states (e.g., calm, tense, curious) to personalize and enrich the reading you receive.
 
-### 9.2 Key Principles
+### 10.2 Key Principles
 | Principle | Detail |
 |-----------|--------|
 | Internal use only | Emotional data is used exclusively to personalize your reading — never shown to you or stored |
@@ -112,17 +136,17 @@ During active reading sessions, ORA may activate your device camera in the backg
 | No third-party sharing | Emotional analysis data is never shared with any third party |
 | No AI training | Your emotional data is never used to train AI models |
 
-### 9.3 Consent
+### 10.3 Consent
 By accepting these Terms and proceeding through onboarding, you provide informed consent for this feature as described. You may revoke camera permission at any time via your device Settings → ORA → Camera. Revoking permission does not affect access to other ORA features.
 
-### 9.4 Legal Basis
+### 10.4 Legal Basis
 - **GDPR:** Explicit consent Art. 9(2)(a) / Legitimate interest Art. 6(1)(f) for service personalization
 - **Ecuador LOPDP:** Informed consent Art. 26
 - **Brazil LGPD:** Explicit consent Art. 11(I)
 
 ---
 
-## 10. PAYMENTS, SUBSCRIPTIONS, AND REFUNDS
+## 11. PAYMENTS, SUBSCRIPTIONS, AND REFUNDS
 
 **Subscription tiers:** ORA Free / ORA Star / ORA Sun / ORA Moon (monthly or annual)
 
@@ -150,7 +174,7 @@ By accepting these Terms and proceeding through onboarding, you provide informed
 
 ---
 
-## 11. PLATFORM-SPECIFIC PROVISIONS
+## 12. PLATFORM-SPECIFIC PROVISIONS
 
 **Apple App Store:** These Terms are between you and ORA, not Apple. Apple has no support obligations. Age rating: 17+.
 
@@ -160,37 +184,37 @@ ORA complies with Apple App Store Review Guidelines and Google Play Developer Po
 
 ---
 
-## 12. PROHIBITED CONDUCT
+## 13. PROHIBITED CONDUCT
 
 You agree not to: violate any law, harass others, impersonate, attempt unauthorized access, interfere with servers, transmit spam/malware, or republish ORA content without authorization.
 
 ---
 
-## 13. SUSPENSION AND TERMINATION
+## 14. SUSPENSION AND TERMINATION
 
-ORA may suspend/terminate accounts for Terms violations, fraud, non-payment, or legal requirements. Sections 3, 4, 6, 14, 15, 16, 17 survive termination.
+ORA may suspend/terminate accounts for Terms violations, fraud, non-payment, or legal requirements. Sections 3, 4, 6, 7, 15, 16, 17, 18 survive termination.
 
 ---
 
-## 14. DISCLAIMER OF WARRANTIES
+## 15. DISCLAIMER OF WARRANTIES
 
 ORA IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND. NO GUARANTEE OF ACCURACY, RELIABILITY, OR FITNESS FOR PURPOSE FOR ANY ESOTERIC READING.
 
 ---
 
-## 15. LIMITATION OF LIABILITY
+## 16. LIMITATION OF LIABILITY
 
 ORA's total liability shall not exceed the greater of: amounts paid in the prior 12 months or USD $100. No liability for indirect, consequential, or punitive damages.
 
 ---
 
-## 16. INDEMNIFICATION
+## 17. INDEMNIFICATION
 
 You indemnify ORA against claims arising from your use, your content, or your violation of these Terms or third-party rights.
 
 ---
 
-## 17. GOVERNING LAW AND JURISDICTION
+## 18. GOVERNING LAW AND JURISDICTION
 
 Primary: Republic of Ecuador (Courts of Quito).
 EU/Spain users: Spanish courts and EU consumer mechanisms available.
@@ -198,7 +222,7 @@ EU ODR: ec.europa.eu/consumers/odr
 
 ---
 
-## 18. MULTI-JURISDICTIONAL COMPLIANCE
+## 19. MULTI-JURISDICTIONAL COMPLIANCE
 
 - **Ecuador:** LOPDP, Defensa del Consumidor, Comercio Electrónico, RIMPE
 - **EU/Spain:** GDPR, LOPDGDD, LSSI, Consumer Rights Directive, DSA
@@ -207,13 +231,13 @@ EU ODR: ec.europa.eu/consumers/odr
 
 ---
 
-## 19. CHANGES TO TERMS
+## 20. CHANGES TO TERMS
 
 Material changes notified 30 days in advance via in-app and email. Continued use = acceptance.
 
 ---
 
-## 20. CONTACT
+## 21. CONTACT
 
 **Legal:** legal@oratrology.com
 **DPO (EU):** dpo@oratrology.com
@@ -224,6 +248,6 @@ Material changes notified 30 days in advance via in-app and email. Continued use
 
 BY USING ORA, YOU AGREE TO THESE TERMS.
 
-*The stars guide, but never obligate. Your free will is always first. 🌟*
+*The stars guide, but never obligate. Your free will is always first. 🔮*
 
-*ORA Terms & Conditions v2.1 | Santiago Sáiz / Fundación Hostelling del Ecuador | oratrology.com*
+*ORA Terms & Conditions v2.2 | Santiago Sáiz / Fundación Hostelling del Ecuador | oratrology.com*
