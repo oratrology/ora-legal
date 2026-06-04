@@ -1,78 +1,97 @@
 # TERMINI E CONDIZIONI D'USO
-## ORA — Piattaforma di IA Esoterica
+## ORA — Piattaforma AI Esoterica
 
-**Versione:** 2.1 | **Ultimo aggiornamento:** 14 maggio 2026
+**Versione:** 2.3 | **Ultimo aggiornamento:** 3 giugno 2026
 **Titolare:** Santiago Sáiz / Fundación Hostelling del Ecuador
-**Giurisdizione:** Repubblica dell'Ecuador (principale) | Spagna (secondaria)
-**URL Legale:** https://oratrology.com/legal/
+**URL legale:** https://oratrology.com/legal/
 
 ---
 
 ## 1. DEFINIZIONI
 
 - **"ORA"** — app mobile, web e tutti i servizi sotto il marchio "ORA"
-- **"ORATROLOGY"** — nome del marchio e trademark principale
-- **"Personaggi"** — Krista (chiromanzia), Luna (tarot/sogni), Yaru (caffè/sciamanesimo), Kael (astrologia/numerologia)
-- **"Analisi Emotiva"** — rilevamento passivo delle emozioni tramite fotocamera in tempo reale durante le letture
-- **"Astral Rewards"** — sistema fedeltà: Stelle (⭐), Soli (☀️), Lune (🌙)
-- **"ORACLE"** — marchio registrato di Oracle Corporation (NESSUNA affiliazione con ORA)
+- **"ORATROLOGY"** — nome commerciale principale e marchio della piattaforma
+- **"Personaggi"** — Krista, Luna, Yaru, Kael
+- **"Analisi Emotiva"** — rilevamento emotivo passivo in tempo reale tramite fotocamera
+- **"Premi Astrali"** — Stelle (⭐), Soli (☀️), Lune (🌙)
+- **"ORACLE"** — marchio registrato di Oracle Corporation (NESSUNA affiliazione con ORA — vedere Sezione 4)
+- **"Dati di Localizzazione"** — nome di luogo o città inserito dall'utente durante l'onboarding per indicare il suo luogo di nascita
+- **"API di Terze Parti"** — servizi esterni integrati in ORA, tra cui l'API Google Places
+- **"Componenti Open Source"** — software di terze parti sotto licenze libere, inclusa AGPLv3
 
 ---
 
 ## 2. ACCETTAZIONE
 
-Utilizzando ORA confermi: di avere 18+ anni (o 13-17 con consenso dei genitori), di aver letto questi Termini e di avere capacità giuridica. Gli utenti sotto i 13 anni sono severamente vietati.
+Utilizzando ORA confermi di avere 18+ anni (o 13–17 anni con consenso dei genitori) e di aver letto questi Termini. Gli utenti sotto i 13 anni sono strettamente vietati.
 
 ---
 
 ## 3. PROPRIETÀ INTELLETTUALE
 
-Tutti i diritti appartengono esclusivamente a Santiago Sáiz / FHE: marchio ORA/ORATROLOGY, personaggi (Krista, Luna, Yaru, Kael), letture, prompt IA, codice sorgente e design UI/UX. Le tradizioni esoteriche di riferimento sono patrimonio culturale e dominio pubblico.
+Tutti i diritti appartengono esclusivamente a Santiago Sáiz / Fundación Hostelling del Ecuador: marchio, personaggi, contenuto della piattaforma, asset tecnici e commerciali. Nessun trasferimento di diritti è concesso da questi Termini.
 
 ---
 
-## 4. AVVISO MARCHIO — ORACLE
+## 4. AVVISO SUL MARCHIO — ORACLE
 
-**ORACLE** è un marchio registrato di Oracle Corporation (USA). **ORA/ORATROLOGY non hanno alcuna affiliazione con Oracle Corporation.** ORA usa "oracle" solo nel suo significato comune pre-marchio (divinazione/saggezza).
-
----
-
-## 5. FOTOCAMERA PASSIVA E ANALISI EMOTIVA
-
-### 5.1 Come Funziona
-Durante le sessioni di lettura attive, ORA può attivare la fotocamera frontale del dispositivo in background per eseguire analisi emotiva in tempo reale. Questa tecnologia rileva stati emotivi generali per personalizzare la tua lettura.
-
-### 5.2 Principi Chiave
-| Principio | Dettaglio |
-|-----------|-----------|
-| Solo uso interno | Dati emotivi usati esclusivamente per personalizzare la lettura — mai memorizzati |
-| Nessuna registrazione | Nessun video o immagine viene catturato, memorizzato o trasmesso |
-| Solo in tempo reale | Analisi solo durante la sessione — nessun dato conservato dopo |
-| Opzionale | Puoi negare il permesso fotocamera; le letture rimangono disponibili |
-| Nessuna terza parte | Dati emotivi mai condivisi con terzi |
-| Nessun addestramento IA | Mai usati per addestrare modelli IA |
-
-### 5.3 Consenso
-Accettando questi Termini durante l'onboarding, fornisci consenso informato. Puoi revocare il permesso fotocamera in Impostazioni → ORA → Fotocamera. **Base legale GDPR:** Consenso esplicito Art. 9(2)(a).
+**ORACLE** è un marchio registrato di Oracle Corporation. **ORA / ORATROLOGY sono completamente indipendenti e senza affiliazione con Oracle Corporation.**
 
 ---
 
-## 6. PAGAMENTI E ABBONAMENTI
+## 5. LICENZA D'USO
 
-**Livelli:** ORA Free / ORA Star / ORA Sun / ORA Moon (mensile o annuale). **Rinnovo automatico:** Annulla almeno 24h prima. **Rimborsi:** Apple: reportaproblem.apple.com | Google: 48h | Web: 14 giorni | UE: diritto di recesso 14 giorni.
-
----
-
-## 7. LEGGE APPLICABILE
-
-Repubblica dell'Ecuador (principale). Utenti UE/Italia: tribunali spagnoli e meccanismi di consumo UE disponibili. ODR UE: ec.europa.eu/consumers/odr
+Licenza limitata, non esclusiva, non trasferibile e revocabile per uso personale e non commerciale soltanto.
 
 ---
 
-## 8. CONTATTI
+## 6. COMPONENTI SOFTWARE DI TERZE PARTI
 
-**Legale:** legal@oratrology.com | **DPO (UE):** dpo@oratrology.com | **Supporto:** support@oratrology.com | **Hub Legale:** https://oratrology.com/legal/
+### 6.1 Componenti Open Source (AGPLv3)
+ORA utilizza componenti open source per calcoli tecnici (es.: Swiss Ephemeris, sotto AGPLv3). Codice sorgente disponibile su richiesta scritta a **legal@oratrology.com**. Questa divulgazione non trasferisce alcun diritto sulla PI proprietaria di ORA.
+
+### 6.2 Separazione degli Asset
+Il livello open source (librerie di calcolo) è strettamente separato dal livello proprietario (logica interpretativa, personalità dei personaggi IA, prompt, modello di business) — proprietà esclusiva di Santiago Sáiz / Fundación Hostelling del Ecuador.
+
+### 6.3 API Google Places — Autocompletamento Localizzazione
+Durante l'onboarding, ORA utilizza l'**API Google Places Autocomplete** (Google LLC, Mountain View, CA, USA) esclusivamente per assistere l'utente nell'inserimento della propria città o luogo di nascita.
+
+| Aspetto | Dettaglio |
+|---------|-----------|
+| **Scopo** | Autocompletamento del campo luogo di nascita solo durante l'onboarding |
+| **Dati inviati a Google** | Il testo digitato nel campo luogo di nascita (nomi parziali di luoghi) |
+| **Cosa Google NON riceve** | Nome, email, data/ora di nascita, foto, letture o altri dati personali |
+| **Conservazione da parte di ORA** | Solo il nome del luogo selezionato viene conservato nel profilo |
+| **Alternativa** | Puoi digitare la tua città di nascita manualmente senza usare l'autocompletamento |
+
+Utilizzando l'autocompletamento durante l'onboarding, riconosci che il testo digitato viene trasmesso ai server di Google, soggetto ai Termini di Servizio di Google (https://developers.google.com/maps/terms) e alla Privacy Policy di Google (https://policies.google.com/privacy). ORA non è responsabile delle pratiche di trattamento dei dati di Google.
 
 ---
 
-*ORA Termini e Condizioni v2.1 | Santiago Sáiz / FHE | oratrology.com*
+## 7. NATURA DEL SERVIZIO
+
+Strumenti esoterici di **intrattenimento e autoconoscenza** — NON costituiscono consulenza medica, psicologica, legale o finanziaria. Divulgazione IA: contenuto generato con l'API Claude di Anthropic.
+
+---
+
+## 8–21. [Account, Contenuto, Fotocamera passiva, Pagamenti, Condotta, Risoluzione, Garanzie, Responsabilità, Manleva, Legge applicabile, Conformità, Modifiche, Contatti]
+
+Per il testo completo di queste sezioni, vedere terms-en.md. Le disposizioni sono identiche; differisce solo la lingua.
+
+**Contatti:** legal@oratrology.com | dpo@oratrology.com | support@oratrology.com
+**Hub Legale:** https://oratrology.com/legal/
+
+UTILIZZANDO ORA, ACCETTI QUESTI TERMINI. *Le stelle guidano, ma non obbligano mai. 🔮*
+
+---
+
+## CHANGELOG
+
+| Versione | Data | Modifiche |
+|----------|------|-----------|
+| v2.3 | 3 giu 2026 | Sezione 1: definizioni "Dati di Localizzazione" e "API di Terze Parti". Sezione 6.3 aggiunta: API Google Places (solo onboarding). |
+| v2.2 | 3 giu 2026 | Sezione 6 aggiunta: conformità AGPLv3 (Swiss Ephemeris). |
+| v2.1 | 14 mag 2026 | Sezione 10 aggiunta: Analisi emotiva passiva. |
+| v2.0 | 11 mag 2026 | Versione iniziale pubblicata. |
+
+*ORA Termini e Condizioni v2.3 | Santiago Sáiz / Fundación Hostelling del Ecuador | oratrology.com*

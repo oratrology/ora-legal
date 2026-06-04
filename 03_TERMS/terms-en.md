@@ -1,7 +1,7 @@
 # TERMS AND CONDITIONS OF USE
 ## ORA — Esoteric AI Platform
 
-**Version:** 2.2
+**Version:** 2.3
 **Effective Date:** May 11, 2025
 **Last Updated:** June 3, 2026
 **Holder:** Santiago Sáiz / Fundación Hostelling del Ecuador
@@ -22,6 +22,8 @@
 - **"ORACLE"** — registered trademark of Oracle Corporation (NO affiliation with ORA — see Section 4)
 - **"Holder"** — Santiago Sáiz / Fundación Hostelling del Ecuador
 - **"Open-Source Components"** — third-party software used by ORA under free/open-source licenses, including AGPLv3
+- **"Location Data"** — place name or city text entered by the user during onboarding for birth location purposes
+- **"Third-Party APIs"** — external services integrated into ORA to provide specific functionality, including Google Places API
 
 ---
 
@@ -65,26 +67,40 @@ ORA grants you a limited, non-exclusive, non-transferable, revocable license to 
 
 ---
 
-## 6. OPEN-SOURCE SOFTWARE COMPONENTS & AGPLv3 COMPLIANCE
+## 6. THIRD-PARTY SOFTWARE COMPONENTS
 
-### 6.1 Use of Open-Source Components
-ORA uses certain third-party open-source software components ("Open-Source Components") to perform technical calculations, including astronomical ephemeris computations (e.g., Swiss Ephemeris). These components are licensed under the GNU Affero General Public License, Version 3 (AGPLv3) or other compatible open-source licenses.
+### 6.1 Open-Source Components (AGPLv3)
+ORA uses certain third-party open-source software components to perform technical calculations, including astronomical ephemeris computations (e.g., Swiss Ephemeris). These components are licensed under the GNU Affero General Public License, Version 3 (AGPLv3) or other compatible open-source licenses.
 
 ### 6.2 AGPLv3 Transparency Notice
-In compliance with the AGPLv3 license requirements, ORA hereby discloses:
+In compliance with AGPLv3 requirements, ORA hereby discloses:
 
 - ORA uses open-source libraries for technical astronomical and esoteric calculations.
-- The source code of said open-source components is available upon written request to **legal@oratrology.com**, subject to applicable license terms.
-- This disclosure does not affect, limit, or transfer any rights over ORA's proprietary intellectual property, including but not limited to: AI prompts, system prompts, character designs (Krista, Luna, Yaru, Kael), business logic, user data, reading algorithms, UI/UX, or any other non-open-source asset.
+- The source code of said components is available upon written request to **legal@oratrology.com**, subject to applicable license terms.
+- This disclosure does not affect, limit, or transfer any rights over ORA's proprietary intellectual property, including but not limited to: AI prompts, system prompts, character designs (Krista, Luna, Yaru, Kael), business logic, user data, reading algorithms, or UI/UX.
 
 ### 6.3 Separation of Proprietary and Open-Source Assets
-ORA maintains strict technical and legal separation between:
-
-**(a) Open-Source Layer:** Third-party calculation libraries (ephemeris, calendar algorithms) used as tools — governed by their respective open-source licenses.
-**(b) Proprietary Layer:** ORA's unique interpretive logic, AI character personalities, prompt engineering, business model, and all user-facing content — exclusively owned by Santiago Sáiz / Fundación Hostelling del Ecuador and NOT subject to any open-source license.
+**(a) Open-Source Layer:** Third-party calculation libraries used as tools — governed by their respective open-source licenses.
+**(b) Proprietary Layer:** ORA's interpretive logic, AI character personalities, prompt engineering, business model, and all user-facing content — exclusively owned by Santiago Sáiz / Fundación Hostelling del Ecuador and NOT subject to any open-source license.
 
 ### 6.4 No Contamination of ORA's IP
-The use of AGPLv3-licensed components does not create any obligation to open-source ORA's proprietary codebase, prompts, or business logic. ORA's proprietary layer remains fully protected under applicable intellectual property law.
+The use of AGPLv3-licensed components does not create any obligation to open-source ORA's proprietary codebase, prompts, or business logic.
+
+### 6.5 Google Places API — Location Autocomplete
+During onboarding, ORA uses the **Google Places Autocomplete API** (a service by Google LLC, Mountain View, CA, USA) exclusively to assist users in entering their birth city or place of birth. This integration works as follows:
+
+| Aspect | Detail |
+|--------|--------|
+| **Purpose** | Autocomplete birth location field during onboarding only |
+| **Data sent to Google** | The text you type in the birth location field (partial place names) |
+| **What Google does NOT receive** | Your name, email, birth date/time, photos, readings, or any other personal data |
+| **Data retention by ORA** | Only the final selected place name is stored as part of your profile |
+| **Google's own terms** | Google processes autocomplete queries under its own Terms of Service and Privacy Policy |
+| **Opt-out** | You may type your birth city manually without using the autocomplete suggestions |
+
+By using the location autocomplete feature during onboarding, you acknowledge that the text you type in that field is transmitted to Google's servers to retrieve place suggestions, subject to Google's Terms of Service (https://developers.google.com/maps/terms) and Google Privacy Policy (https://policies.google.com/privacy).
+
+ORA is not responsible for Google's data processing practices. Google Places API usage by ORA complies with Google Maps Platform Terms of Service.
 
 ---
 
@@ -250,4 +266,15 @@ BY USING ORA, YOU AGREE TO THESE TERMS.
 
 *The stars guide, but never obligate. Your free will is always first. 🔮*
 
-*ORA Terms & Conditions v2.2 | Santiago Sáiz / Fundación Hostelling del Ecuador | oratrology.com*
+---
+
+## CHANGELOG
+
+| Version | Date | Changes |
+|---------|------|---------|
+| v2.3 | June 3, 2026 | Section 1: added "Location Data" and "Third-Party APIs" definitions. Section 6 renamed to "Third-Party Software Components". Section 6.5 added: Google Places API — Location Autocomplete (onboarding only). |
+| v2.2 | June 3, 2026 | Section 6 added: Open-Source Software Components & AGPLv3 Compliance (Swiss Ephemeris disclosure, proprietary/open-source separation). |
+| v2.1 | May 14, 2026 | Section 10 added: Passive Camera & Emotional Analysis. Biometric data protections expanded. |
+| v2.0 | May 11, 2026 | Initial published version. |
+
+*ORA Terms & Conditions v2.3 | Santiago Sáiz / Fundación Hostelling del Ecuador | oratrology.com*
